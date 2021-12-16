@@ -20,3 +20,7 @@ body {
     border-style: none;
 	min-height: 100%;
 }
+
+#char-gen-body {
+    background-image: url("https://wallpaperaccess.com/full/2077767.jpg");
+}
