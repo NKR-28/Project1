@@ -1,0 +1,22 @@
+html {
+	height: 100%;
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: center; 
+    margin: 0;
+	height: 100%;
+}
+
+.container {
+    font-family: Georgia, Arial, sans-serif;
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 125%;
+    background-image: url('http://inspirationhut.net/wp-content/uploads/2012/11/Worn-Paper-Texture.jpg');
+    border-style: none;
+	min-height: 100%;
+}
