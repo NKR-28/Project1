@@ -1,3 +1,5 @@
+
+
 html {
 	height: 100%;
 }
@@ -23,4 +25,18 @@ body {
 
 #char-gen-body {
     background-image: url("https://wallpaperaccess.com/full/2077767.jpg");
+}
+
+.child {
+display: flex;
+flex-direction: column;
+height: 250px;
+width: 25%;
+border-radius: 10px;
+box-sizing: border-box;
+float: left;
+opacity: 50%;
+border: solid;
+background-color: antiquewhite;
+font-family: 'Shippori Antique B1', sans-serif;
 }
