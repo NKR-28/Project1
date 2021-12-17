@@ -17,7 +17,6 @@ var initiative;
 
 
 
-
 // Generate random name
 function generate_random_name() {
   $.ajax({
@@ -272,7 +271,6 @@ function generate_character() {
   generate_random_alignment();
 
   console.log(skills_array);
-  //console.log("Armor Class: " + armor_class);
   console.log(ability_scores_array);
 };
 
