@@ -15,7 +15,6 @@ var initiative;
 
 
 
-
 // Generate random name
 function generate_random_name() {
   $.ajax({
