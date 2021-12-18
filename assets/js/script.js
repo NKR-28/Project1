@@ -130,7 +130,7 @@ function generate_ability_scores(randomRace, randomClass) {
           (ability_scores_array[3][1] - 10) / 2
         );
 
-        // Random Ability Score +1 X2
+        // Random Ability Score +1 (X2)
         let random_skill = getRandomInt(6);
         ability_scores_array[random_skill][1] =
           ability_scores_array[random_skill][1] + 1;
