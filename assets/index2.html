@@ -15,28 +15,43 @@
     <body id="char-gen-body"></body>
     <div class="box">
         <div class="child">Skills
+            <ul id="random_skills"></ul>  
         </div>
         <div class="child">Abilities
-            <ul>
-                <li>Charisma 
-                    <div id="charisma"></div>
-                </li>
-            </ul>
-            <ul>
-                <li>Abilities 
-                    <div id="abilities"></div>
-                </li>
-            </ul>
+            <ul id="abilities"></ul>            
         </div>
-        <div class="child">Race
+        <div class="child">Name and Race
+            <div id="randomName"></div>
             <div id="randomRace"></div>
         </div>
-        <div class="child">Alignment</div>
-        <div class="child">Class</div>
-        <div class="child">Initiative Modifier</div>
-        <div class="child">Max HP</div>
-        <div class="child">Armor Class</div>
+        <div class="child">Alignment
+            <div id="randomAlignment"></div>
+        </div>
+        <div class="child">Class
+            <div id="randomClass"></div>
+        </div>
+        <div class="child">Initiative Modifier
+            <div id="randomInitiative"></div>
+        </div>
+        <div class="child">Max HP
+            <div id="randomHP"></div>
+        </div>
+        <div class="child">Armor Class
+            <div id="randomAC"></div>˙
+        </div>
     </div>
+    <div>
+        <div>
+            <button id="backBtn" class="btn bottom_buttons">Title Page</button>
+        </div>
+        <div>
+            <button id="saveBtn" class="btn bottom_buttons">Save Character</button>
+        </div>
+        <div>
+            <button id="savedCharactersBtn" class="btn bottom_buttons">List of Saved Characters</button>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./js/script.js"></script>
 </body>
