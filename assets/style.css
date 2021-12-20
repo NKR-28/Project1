@@ -1,23 +1,78 @@
+body {
+  animation: fadeInAnimation ease-in 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.hero-body {
+  background-color: darkgrey;
+}
+
 .container {
   display: flex;
   border-style: solid;
   font-size: 30px;
 }
 
+.centerBtn {
+  text-align: center;
+}
+
+.centerBtn:hover {
+  opacity: 75%;
+}
+
 .child {
-margin: 10px;
-padding: 20px;
-font-size: 30px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .body {
-    background-image: url("https://www.myfreetextures.com/wp-content/uploads/2011/06/an-old-and-worn-parchment-paper-900x1093.jpg");
-    font-family: "Hoefler Text", "Palatino", "Times New Roman", "Times", serif;
-    }
-
-    
-#char-gen-body {
-  background-image: url('https://wallpapercave.com/wp/wp2770237.jpg');
+  background-image: url("https://www.myfreetextures.com/wp-content/uploads/2011/06/an-old-and-worn-parchment-paper-900x1093.jpg");
+  font-family: "Hoefler Text", "Palatino", "Times New Roman", "Times", serif;
 }
 
+#char-gen-body {
+  background-image: url("https://wallpapercave.com/wp/wp2770237.jpg");
+}
 
+.tile is-ancestor {
+  opacity: 50%;
+}
+
+.tile is-parent {
+  opacity: 50%;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .box {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100%;
+  }
+}
