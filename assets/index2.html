@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
       rel="stylesheet"
@@ -20,42 +21,45 @@
   </head>
   <body>
     <body id="char-gen-body"></body>
-    <div class="box">
-      <div class="child">
+    <div class="tile is-parent">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Skills</h1>
         <ul id="random_skills"></ul>
       </div>
-      <div class="child">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Abilities:</h1>
         <ul id="abilities"></ul>
       </div>
-      <div class="child">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Name and Race:</h1>
         <div id="randomName"></div>
         <div id="randomRace"></div>
       </div>
-      <div class="child">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Alignment:</h1>
         <div id="randomAlignment"></div>
       </div>
-      <div class="child">
+    </div>
+    <div class="tile is-parent">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Class:</h1>
         <div id="randomClass"></div>
       </div>
-      <div class="child">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Initiative Modifier:</h1>
         <div id="randomInitiative"></div>
       </div>
-      <div class="child">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Max HP:</h1>
         <div id="randomHP"></div>
       </div>
-      <div class="child">
+      <div class="tile is-child box">
         <h1 class="header">Your Character's Armor Class:</h1>
         <div id="randomAC"></div>
-        ˙
       </div>
     </div>
+
+
     <div class="button-page">
       <div>
         <button id="backBtn" class="btn bottom_buttons">Home</button>
@@ -65,11 +69,15 @@
           Save Your Character
         </button>
       </div>
+
+      <!--
       <div>
         <button id="savedCharactersBtn" class="btn bottom_buttons">
           List of Saved Characters
         </button>
       </div>
+      -->
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
