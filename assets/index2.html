@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
     <a href="index.html"></a>
-</head>
-<body>
+  </head>
+  <body>
     <body id="char-gen-body"></body>
     <div class="box">
-        <div class="child">Skills
-            <ul id="random_skills"></ul>  
-        </div>
-        <div class="child">Abilities
-            <ul id="abilities"></ul>            
-        </div>
-        <div class="child">Name and Race
-            <div id="randomName"></div>
-            <div id="randomRace"></div>
-        </div>
-        <div class="child">Alignment
-            <div id="randomAlignment"></div>
-        </div>
-        <div class="child">Class
-            <div id="randomClass"></div>
-        </div>
-        <div class="child">Initiative Modifier
-            <div id="randomInitiative"></div>
-        </div>
-        <div class="child">Max HP
-            <div id="randomHP"></div>
-        </div>
-        <div class="child">Armor Class
-            <div id="randomAC"></div>˙
-        </div>
+      <div class="child">
+        <h1 class="header">Your Character's Skills</h1>
+        <ul id="random_skills"></ul>
+      </div>
+      <div class="child">
+        <h1 class="header">Your Character's Abilities:</h1>
+        <ul id="abilities"></ul>
+      </div>
+      <div class="child">
+        <h1 class="header">Your Character's Name and Race:</h1>
+        <div id="randomName"></div>
+        <div id="randomRace"></div>
+      </div>
+      <div class="child">
+        <h1 class="header">Your Character's Alignment:</h1>
+        <div id="randomAlignment"></div>
+      </div>
+      <div class="child">
+        <h1 class="header">Your Character's Class:</h1>
+        <div id="randomClass"></div>
+      </div>
+      <div class="child">
+        <h1 class="header">Your Character's Initiative Modifier:</h1>
+        <div id="randomInitiative"></div>
+      </div>
+      <div class="child">
+        <h1 class="header">Your Character's Max HP:</h1>
+        <div id="randomHP"></div>
+      </div>
+      <div class="child">
+        <h1 class="header">Your Character's Armor Class:</h1>
+        <div id="randomAC"></div>
+        ˙
+      </div>
     </div>
-    <div>
-        <div>
-            <button id="backBtn" class="btn bottom_buttons">Title Page</button>
-        </div>
-        <div>
-            <button id="saveBtn" class="btn bottom_buttons">Save Character</button>
-        </div>
-        <div>
-            <button id="savedCharactersBtn" class="btn bottom_buttons">List of Saved Characters</button>
-        </div>
+    <div class="button-page">
+      <div>
+        <button id="backBtn" class="btn bottom_buttons">Home</button>
+      </div>
+      <div>
+        <button id="saveBtn" class="btn bottom_buttons">
+          Save Your Character
+        </button>
+      </div>
+      <div>
+        <button id="savedCharactersBtn" class="btn bottom_buttons">
+          List of Saved Characters
+        </button>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="./js/script.js"></script>
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
